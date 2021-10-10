@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+body {
+  background-color: #0084b4;
+  color: rgba(255, 255, 255, 0.692);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  margin-top: 2.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wrapper {
+  margin-top: 2.5rem;
+  background-color: #00aced;
+  border-radius: 10px;
+  height: 400px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.counter {
+  margin-top: 150px;
 }
 
-.App-link {
-  color: #61dafb;
+.tombol {
+  background-color: #1dcaff;
+  color: rgba(255, 255, 255, 0.747);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tombol:hover {
+  color: rgba(255, 255, 255, 0.527);
+}
+
+.number-container {
+  /* From https://css.glass */
+  background: rgba(192, 222, 237, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(192, 222, 237, 0.14);
+  margin-top: 140px;
 }
